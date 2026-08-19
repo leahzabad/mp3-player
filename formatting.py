@@ -1,9 +1,6 @@
 import requests
 from PIL import Image
 
-client_id =  "96ac319a187a4f87a93d3ecb3f1a7076"
-client_secret = "72f00aabfc5044b5afc03f74f0fdb34d"
-
 
 token_url = "https://accounts.spotify.com/api/token"
 token_data = {"grant_type": "client_credentials",
